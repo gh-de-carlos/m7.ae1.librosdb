@@ -7,7 +7,7 @@ CREATE DATABASE libros_db WITH OWNER = bootcamp_user;
 -- Debes comentar si creas la bd bajo el usuario postgres.
 SET ROLE bootcamp_user;
 
-/c libros_db;
+\c libros_db;
 
 CREATE TABLE libros (
   id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
